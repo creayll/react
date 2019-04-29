@@ -1,0 +1,21 @@
+.classification {
+  width: 100%;
+  border: 1px solid #e8dbdb;
+  border-collapse: collapse;
+  line-height: 35px;
+}
+.classification tr td {
+  border: 1px solid #e8dbdb;
+}
+.classification tr .items {
+  overflow: hidden;
+}
+.classification tr .items .item {
+  cursor: pointer;
+  float: left;
+  padding: 0 10px;
+}
+.classification tr .items .active {
+  background: blue;
+  color: white;
+}

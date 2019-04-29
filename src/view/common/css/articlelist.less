@@ -1,0 +1,42 @@
+.articlelist{
+    background: #f5f6f7;
+    letter-spacing: 1px;
+    .test{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;         
+    }
+    .item{
+        background: white;
+        padding: 8px 0px;
+        margin-bottom: 3px; 
+        display: flex;       
+        .img{
+            flex: 0 0 120px;
+            width: 120px;
+            height: 120px;            
+        }
+        .des{     
+            flex-grow:1;
+            padding-left: 5px;   
+        
+            .name{
+                text-align: center;
+                width: 100%;
+            }
+            .content{
+                text-indent: 2em;                
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                /*! autoprefixer: off */
+                -webkit-box-orient: vertical;
+                /* autoprefixer: on */
+                -webkit-line-clamp: 4;
+                text-align: justify;
+            }
+        }
+    }
+}

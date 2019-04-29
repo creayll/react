@@ -1,0 +1,61 @@
+.herdtitle {
+  padding: 0px 10px;
+  background: blue;
+  color: white;
+  line-height: 45px;
+}
+.herdtitle .icon-fanhui {
+  font-size: 20px;
+  line-height: 45px;
+  vertical-align: middle;
+}
+.herdtitle .left {
+  line-height: 1;
+  position: absolute;
+  width: 40%;
+  height: 45px;
+  left: 10px;
+  top: 0;
+}
+.herdtitle .left .titleleft {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.herdtitle .left .titleleft .icon {
+  font-size: 20px;
+  line-height: 20px;
+}
+.herdtitle .left .titleleft p {
+  font-size: 12px;
+  line-height: 13px;
+}
+.herdtitle .tit {
+  width: 100%;
+  text-align: center;
+}
+.herdtitle .right {
+  width: 40%;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  line-height: 1;
+}
+.herdtitle .right .box {
+  height: 45px;
+}
+.herdtitle .right .item {
+  float: right;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.herdtitle .right .item .icon {
+  font-size: 20px;
+  line-height: 20px;
+}
+.herdtitle .right .item p {
+  font-size: 12px;
+  line-height: 13px;
+}

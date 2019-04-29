@@ -1,0 +1,68 @@
+@lineheight: 45px;
+.herdtitle{
+//  display: flex;
+//  justify-content: space-between;
+    padding: 0px 10px;
+    background: blue;
+    color: white;
+    line-height: @lineheight;
+    .icon-fanhui{
+        font-size: 20px;
+        line-height: @lineheight;
+        vertical-align: middle;
+    }
+    .left{
+        line-height: 1;
+        position: absolute;
+        width: 40%;
+        height: @lineheight;
+        left: 10px;
+        top: 0;
+        .titleleft{
+            text-align: center;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 20px;
+            .icon{
+               font-size: 20px; 
+               line-height: 20px;
+            }
+            p{
+                font-size: 12px;
+                line-height: 13px;
+            }
+        }
+    }
+    .tit{
+        width: 100%;
+        text-align: center;
+    }
+    .right{
+        width: 40%;
+        position: absolute;
+        right: 10px;
+        top: 0;
+        line-height: 1;        
+//      span{
+//          line-height: @lineheight;
+//          color: blue
+//      }
+        .box{
+            height: @lineheight;
+        }
+        .item{
+            float: right;
+            text-align: center;
+            margin-top: 5px;
+            margin-left: 10px;
+            .icon{
+               font-size: 20px; 
+               line-height: 20px;
+            }
+            p{
+                font-size: 12px;
+                line-height: 13px;
+            }                
+        }
+    }
+}

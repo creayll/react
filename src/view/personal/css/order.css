@@ -1,0 +1,52 @@
+.order .orderitem {
+  border-bottom: 1px solid #e8dbdb;
+  background: white;
+  padding: 10px 0;
+}
+.order .orderitem .titlebox {
+  overflow: hidden;
+  padding: 0 10px;
+}
+.order .orderitem .titlebox .left {
+  float: left;
+}
+.order .orderitem .titlebox .right {
+  float: right;
+}
+.order .orderitem .content {
+  overflow: hidden;
+  padding: 5px 10px;
+}
+.order .orderitem .content .left {
+  float: left;
+}
+.order .orderitem .content .left img {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+.order .orderitem .content .left .des {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+  width: 120px;
+}
+.order .orderitem .content .right {
+  float: right;
+  text-align: left;
+}
+.order .orderitem .all {
+  text-align: right;
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+.order .orderitem .lists {
+  display: flex;
+  justify-content: space-around;
+}
+.order .orderitem .lists .list {
+  padding: 0 15px;
+  border: 1px solid #e8dbdb;
+  line-height: 25px;
+  border-radius: 30px;
+}
